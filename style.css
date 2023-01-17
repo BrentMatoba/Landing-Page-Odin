@@ -1,11 +1,13 @@
 body{
-
+    display:flex;
+    flex-direction: column;
 }
 
 
 
 .header{
  display: flex;
+ background-color:#1F2937;
 }
 
 ul{
@@ -22,7 +24,7 @@ a{}
 
 
 .content-1{
-
+    background-color:#1F2937;
 }
 
 
