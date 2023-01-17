@@ -47,6 +47,17 @@ a{
     background-color:#1F2937;
 }
 
+.hero-main-text{
+    font-size:48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+.hero-secondary-text{
+    font-size:18px;
+    color:#e5e7eb;
+}
+
 
 
 
