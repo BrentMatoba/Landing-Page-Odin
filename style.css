@@ -5,10 +5,15 @@ body{
 
 
 .header{
- 
+ display: flex;
 }
 
-ul{}
+ul{
+    display:flex;
+    list-style-type:none;
+    gap: 15px;
+}
+
 
 a{}
 
