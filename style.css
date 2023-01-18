@@ -39,10 +39,10 @@ a{
     color: #e5e7eb;
 }
 
-img{
-    width: 300px;
-    height:auto;
-}
+
+
+
+
 
 
 .content-1{
@@ -52,6 +52,11 @@ img{
     gap: 200px;
     justify-content: center;
 
+}
+
+img{
+    width: 300px;
+    height:auto;
 }
 
 .c1-format{
@@ -65,7 +70,18 @@ img{
     width: 100px;
     height: auto;
     margin: auto;
+    color:#e5e7eb;
     background-color: #3882F6;
+    border-radius: 10px;
+
+}
+
+.c1-button-positioning{
+    display: flex;
+    justify-content:start;
+    margin-right:auto;
+    margin-bottom: auto;
+    align-items: center;
 }
 
 .c1-border-div{
@@ -80,7 +96,8 @@ img{
 
 .hero-secondary-text{
     font-size:18px;
-    color:#e5e7eb;
+    color:#F9FAF8;
+    
 }
 
 
