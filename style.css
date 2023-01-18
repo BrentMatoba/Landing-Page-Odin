@@ -39,12 +39,15 @@ a{
     color: #e5e7eb;
 }
 
-
-
+img{
+    width: 300px;
+    height:auto;
+}
 
 
 .content-1{
     background-color:#1F2937;
+
 }
 
 .hero-main-text{
