@@ -117,6 +117,7 @@ img{
     gap: 50px;
 }
 
+/*Makes divs into square cards*/
 .card-square{
     height: 200px;
     width:200px;
