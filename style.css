@@ -1,10 +1,11 @@
+/*Arranges page into flexbox columns: header, content-1, content-2, content-3, footer*/
 body{
     display:flex;
     flex-direction: column;
 }
 
 
-
+/*Styles Header*/
 .header{
  display: flex;
  background-color:#1F2937;
@@ -16,7 +17,7 @@ body{
  padding-left:15px;
 }
 
-
+/*Styles links and turns on flexbox for positioning*/
 ul{
     display:flex;
     list-style-type:none;
@@ -29,11 +30,12 @@ ul{
     
 }
 
-
+/*Div on outsides of header that improves formatting*/
 .border-div{
     width:5%;
 }
 
+/*styles anchor elements*/
 a{
     text-decoration: none;
     color: #e5e7eb;
@@ -44,7 +46,7 @@ a{
 
 
 
-
+/*Formats content-1 flexbox*/
 .content-1{
     padding-top: 30px;
     background-color:#1F2937;
@@ -54,6 +56,7 @@ a{
 
 }
 
+/*Styles cat image*/
 img{
     width: 300px;
     height:auto;
@@ -61,6 +64,7 @@ img{
     margin-bottom: 10px;
 }
 
+/*Creates column flexbox for positioning of content-1's header and text*/
 .c1-format{
     display: flex;
     flex-direction: column;
@@ -68,6 +72,7 @@ img{
     max-width: 400px;
     gap: 10px;}
 
+    /*Adds style to sign up button*/
 .c1-button{
     width: 100px;
     height: 35px;
@@ -78,6 +83,7 @@ img{
 
 }
 
+/*Adds flexbox around button to control positioning*/
 .c1-button-positioning{
     display: flex;
     justify-content:start;
@@ -86,16 +92,14 @@ img{
     align-items: center;
 }
 
-.c1-border-div{
-
-}
-
+/*Adds style to header*/
 .hero-main-text{
     font-size:48px;
     font-weight: 900;
     color:#F9FAF8;
 }
 
+/*Adds style to secondary text*/
 .hero-secondary-text{
     font-size:18px;
     color:#F9FAF8;
@@ -106,13 +110,14 @@ img{
 
 
 
-
+/*Adds flebox properties to content-2*/
 .content-2{
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
+/*Adds style to content-2 header*/
 .c2-header{
     text-align: center;
     font-size:36px;
@@ -120,11 +125,15 @@ img{
     color:#1F2937;
     margin-top: 50px;
 }
+
+
+/*Adds style to content-2 text*/
 .c2-text{
     color: #1F2937;
     font-size: 18px;
 }
 
+/*Style for card divs*/
 .card-format{
    display: flex;
    flex-direction: column; 
@@ -133,6 +142,7 @@ img{
    max-width: 17%;
 }
 
+/*Adds horizantal flexbox container for the card divs*/
 .content-2 ul{
     display: flex;
     justify-content: center;
