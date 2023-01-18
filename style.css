@@ -57,6 +57,8 @@ a{
 img{
     width: 300px;
     height:auto;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .c1-format{
@@ -68,11 +70,11 @@ img{
 
 .c1-button{
     width: 100px;
-    height: auto;
+    height: 35px;
     margin: auto;
     color:#e5e7eb;
     background-color: #3882F6;
-    border-radius: 10px;
+    border-radius: 7px;
 
 }
 
