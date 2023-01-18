@@ -46,16 +46,30 @@ img{
 
 
 .content-1{
+    padding-top: 30px;
     background-color:#1F2937;
     display: flex;
-    gap: 50px;
+    gap: 200px;
+    justify-content: center;
 
 }
 
 .c1-format{
     display: flex;
     flex-direction: column;
-    width:400px;
+    min-width: 400px;
+    max-width: 400px;
+    gap: 10px;}
+
+.c1-button{
+    width: 100px;
+    height: auto;
+    margin: auto;
+    background-color: #3882F6;
+}
+
+.c1-border-div{
+
 }
 
 .hero-main-text{
