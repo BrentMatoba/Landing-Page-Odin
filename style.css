@@ -128,6 +128,7 @@ img{
     border-radius: 10px;
 }
 
+
 /*Adds style to content-2 header*/
 .c2-header{
     text-align: center;
@@ -153,7 +154,7 @@ img{
    max-width: 17%;
 }
 
-/*Adds horizantal flexbox container for the card divs*/
+/*Adds horizontal flexbox container for the card divs*/
 .content-2 ul{
     display: flex;
     justify-content: center;
