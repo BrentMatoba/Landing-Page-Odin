@@ -57,7 +57,7 @@ a{
 img{
     width: 300px;
     height:auto;
-    padding-bottom: 20px;
+    padding-bottom: 20px;   
     margin-bottom: 10px;
 }
 
@@ -111,6 +111,15 @@ img{
 
 }
 
+.c2-header{
+    font-size:36px;
+    font-weight: 800;
+    color:#1F2937;
+}
+.c2-text{
+    color: #1F2937;
+    font-size: 18px;
+}
 
 
 
