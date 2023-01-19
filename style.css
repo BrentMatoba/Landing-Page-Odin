@@ -226,15 +226,19 @@ img{
 
 /*Formatting for call to action section of page*/
 .content-4{
-
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
 }
 
 /*Styles for blue box*/
 .blue-box{
     background-color: #3882F6;
     width: 800px;
-    height: 100px;
+    height: 150px;
     margin: auto;
+    border-radius: 5px;
 }
 
 /*Adds style to Call to action text*/
