@@ -110,6 +110,8 @@ img{
 
 
 
+
+
 /*Adds flebox properties to content-2*/
 .content-2{
     display: flex;
@@ -126,6 +128,14 @@ img{
     border-width: 5px;
     margin:auto;
     border-radius: 10px;
+}
+
+/*Styles cat images in content-2*/
+.card-square img{
+    max-width: 200px;
+    width: auto;
+    height: 200px;
+    border-radius:10px;
 }
 
 
@@ -158,11 +168,35 @@ img{
 .content-2 ul{
     display: flex;
     justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
 }
 
 
 
+
+
+
+
+
+
+
 .content-3{
+    display: flex;
+    flex-direction: column;
+    background-color:#e5e7eb;
+    height: 300px;
+
+}
+
+.quote-text{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:0;
+    font-style: italic;
+    text-align: center;
+    width: 800px;
+    margin: auto;
 
 }
 
