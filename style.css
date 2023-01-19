@@ -185,7 +185,7 @@ img{
     display: flex;
     flex-direction: column;
     background-color:#e5e7eb;
-    height: 400px;
+    height: 450px;
     align-items: center;
 
 }
@@ -201,6 +201,7 @@ img{
 }
 
 
+/*Styles main quote*/
 .quote-text{
     color: #1F2937;
     font-size: 36px;
@@ -211,6 +212,7 @@ img{
 
 }
 
+/*Styles Thor signature*/
 .signature{
     margin-left: auto;
     font-size: 25px;
