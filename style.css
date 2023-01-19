@@ -180,7 +180,7 @@ img{
 
 
 
-
+/*Adds flexbox properties to content 3*/
 .content-3{
     display: flex;
     flex-direction: column;
@@ -224,15 +224,46 @@ img{
 
 
 
-
-
-
-.footer{
+/*Formatting for call to action section of page*/
+.content-4{
 
 }
 
-.footer-heading
+/*Styles for blue box*/
+.blue-box{
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+}
 
-.footer-text
+/*Adds style to Call to action text*/
+.c4-heading{
 
-.footer-button
+}
+
+/*Adds style to advertisement text*/
+.c4-text{
+
+}
+
+/*Adds style to Sign up button*/
+.c4-button{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Formatting for footer section of webpage*/
+.footer{
+
+}
