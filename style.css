@@ -235,16 +235,24 @@ img{
 
 /*Styles for blue box*/
 .blue-box{
+    display: flex;
     background-color: #3882F6;
     width: 800px;
     height: 150px;
     margin: auto;
     border-radius: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Adds style to Call to action text*/
 .c4-heading{
-
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 /*Adds style to advertisement text*/
@@ -252,16 +260,22 @@ img{
 
 }
 
+/*Give flexbox properties to text in content 4 for formatting purposes*/
+.c4-text-flexbox{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
 /*Adds style to Sign up button*/
 .c4-button{
-    
+    width: 100px;
 }
 
 
 
 
 
-x
 
 
 
