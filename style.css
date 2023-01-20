@@ -295,5 +295,14 @@ img{
 
 /*Formatting for footer section of webpage*/
 .footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 75px;
+}
 
+/*Styles text in footer*/
+.footer-text{
+    margin:auto;
+    color: #e5e7eb;
 }
