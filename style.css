@@ -243,6 +243,7 @@ img{
     border-radius: 5px;
     justify-content: center;
     align-items: center;
+    gap: 200px;
 }
 
 /*Adds style to Call to action text*/
@@ -252,12 +253,12 @@ img{
     font-weight: 700;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    text-align: left;
 }
 
 /*Adds style to advertisement text*/
 .c4-text{
-
+ width: 500px;
 }
 
 /*Give flexbox properties to text in content 4 for formatting purposes*/
@@ -265,11 +266,15 @@ img{
     display: flex;
     flex-direction: column;
     width: 300px;
+    margin-left: -150px;
+
 }
 
 /*Adds style to Sign up button*/
 .c4-button{
     width: 100px;
+    margin-right: -200px;
+    height: 30px;
 }
 
 
